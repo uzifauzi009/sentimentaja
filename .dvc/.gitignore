@@ -1,0 +1,20 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+models/
+mlruns/
+.env
+
+!models/*.dvc
+
+# DVC ignores
+.dvc/cache/
+.dvc/tmp/
+
+# Mengabaikan file model AI dan database
+results/
+*.pkl
+mlflow.db
